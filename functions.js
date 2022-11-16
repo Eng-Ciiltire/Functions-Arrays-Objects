@@ -8,9 +8,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+
+function multiply(a,b){
+    return a * b
   }
+  console.log(multiply(7,6))
 
 
 /*
@@ -25,9 +27,14 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function catYears(/*add your code here*/){
-    /*add your code here*/
+function catYears(Age){
+  var catAge= 0;
+  catAge = (Age * 7)
+  return catAge
 }
+catYears()
+console.log(catYears(9))
+
 
 
 
@@ -36,7 +43,20 @@ function catYears(/*add your code here*/){
 
 // Take the commented ES5 syntax and convert it to ES6 arrow Syntax
 
+const myFunction = () => {
 
+}
+console.log("Function was invoked!");
+
+
+const anotherFunction = (param) => {
+  return param;
+}
+
+
+const add = (param1, param2) => {
+  return param1 + param2;
+}
 /*
 
 ------------
